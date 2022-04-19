@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.testcrew</groupId>
+    <artifactId>zatca-test-suite</artifactId>
+    <version>1.0.0</version>
+
+    <name>zatca-test-suite</name>
+    <url>https://www.zatca.gov.sa</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+
+        <crew-centric-framework>2022.1.0</crew-centric-framework>
+        <maven-jar-plugin>3.2.0</maven-jar-plugin>
+        <maven-compiler-plugin>3.8.1</maven-compiler-plugin>
+        <maven-surefire-plugin>3.0.0-M5</maven-surefire-plugin>
+
+        <skip-tests>false</skip-tests>
+        <suite-file>testng.xml</suite-file>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.testcrew</groupId>
+            <artifactId>crew-centric-framework</artifactId>
+            <version>${crew-centric-framework}</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin}</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                    <meminitial>1024m</meminitial>
+                    <maxmem>2024m</maxmem>
+                    <compilerArgs>
+                        <arg>-Xlint:unchecked</arg>
+                    </compilerArgs>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven-surefire-plugin}</version>
+                <executions>
+                    <execution>
+                    </execution>
+                </executions>
+                <configuration>
+                    <skipTests>${skip-tests}</skipTests>
+                    <forkCount>1</forkCount>
+                    <reuseForks>false</reuseForks>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>${suite-file}</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <argLine>-Dtestng.dtd.http=true</argLine>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>${maven-jar-plugin}</version>
+                <configuration>
+                    <archive>
+                        <index>true</index>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                        </manifest>
+                        <manifestEntries>
+                            <Built-By>TestCrew_Automation_Team</Built-By>
+                            <Parent-Framework-Version>${project.version}</Parent-Framework-Version>
+                        </manifestEntries>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

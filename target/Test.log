@@ -1,0 +1,169 @@
+[11:40:35.675] [INFO ] [ExecutionListener.java:13] - Start of automated test execution
+[11:40:36.527] [INFO ] [BaseTest.java:59] - Executing test method [FinalEvaluationAuditCase_ApproveByRISKSupervisor_Companies]
+[11:40:36.527] [INFO ] [BaseTest.java:64] - Current Test_Type is either web or web-api. Will instantiate web driver
+[11:40:36.547] [INFO ] [DriverManager.java:53] - Merging user provided selenium capabilities
+[11:40:36.554] [INFO ] [DriverManager.java:55] - Capabilities : [Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--ignore-certificate-errors], extensions: []}, platform: ANY, version: }]
+[11:40:36.554] [INFO ] [DriverManager.java:59] - Browser : CHROME
+[11:40:54.599] [INFO ] [Helper.java:44] - Launched url : https://stgrettfe01.mygazt.gov.sa:1008/home-page
+[11:41:11.562] [INFO ] [Helper.java:44] - Selected English Language
+[11:41:11.979] [INFO ] [Helper.java:44] - Clicked on Register Real Estate Transactions
+[11:41:13.578] [INFO ] [Helper.java:44] - Selected Companies
+[11:41:13.661] [INFO ] [Helper.java:44] - Entered User ID
+[11:41:13.748] [INFO ] [Helper.java:44] - Entered PWD
+[11:41:13.841] [INFO ] [Helper.java:44] - Clicked on Login
+[11:41:13.842] [INFO ] [Actions.java:53] - Waiting for 2 Seconds
+[11:41:16.002] [INFO ] [Helper.java:44] - Entered OTP
+[11:41:16.004] [INFO ] [Actions.java:53] - Waiting for 3 Seconds
+[11:41:29.950] [INFO ] [Helper.java:44] - Clicked on Register New Real Estate Txn
+[11:41:30.251] [INFO ] [Helper.java:44] - Selected Documentation of Real Estate Disposal for other cases
+[11:41:30.362] [INFO ] [Helper.java:44] - Clicked on Continue
+[11:41:30.571] [INFO ] [Helper.java:44] - Select Notorization Type
+[11:41:31.226] [INFO ] [Helper.java:44] - Selected Others
+[11:41:31.455] [INFO ] [Helper.java:44] - Select Txn Type
+[11:41:31.545] [INFO ] [Helper.java:44] - Selected Selling Property on Map
+[11:41:31.657] [INFO ] [Helper.java:44] - Select Contract Type
+[11:41:31.760] [INFO ] [Helper.java:44] - Selected Contract
+[11:41:31.892] [INFO ] [Helper.java:44] - Entered text [1666437770] in webElement [By.xpath: //*[@id="DocumentorContractNumber"]]
+[11:41:32.011] [INFO ] [Helper.java:44] - Clicked on Deed Issuance Date field
+[11:41:32.128] [INFO ] [Helper.java:44] - Selected on Deed Issuance Date
+[11:41:32.230] [INFO ] [Helper.java:44] - Selecting Commercial Registration
+[11:41:32.231] [INFO ] [Actions.java:53] - Waiting for 1 Seconds
+[11:41:33.332] [INFO ] [Helper.java:44] - Selected Commercial Registration
+[11:41:33.502] [INFO ] [Helper.java:44] - Clicked Contract Issuer Agency
+[11:41:33.502] [INFO ] [Actions.java:53] - Waiting for 1 Seconds
+[11:41:34.611] [INFO ] [Helper.java:44] - Selected Ministry of Communications ....
+[11:41:34.709] [INFO ] [Helper.java:44] - Clicked Property Type
+[11:41:34.710] [INFO ] [Actions.java:53] - Waiting for 2 Seconds
+[11:41:36.803] [INFO ] [Helper.java:44] - Selected Commercial
+[11:41:36.865] [INFO ] [Helper.java:44] - Clicked on Continue
+[11:41:37.245] [INFO ] [Helper.java:44] - Selected No Exception
+[11:41:37.342] [INFO ] [Helper.java:44] - Clicked on Continue
+[11:41:37.499] [INFO ] [Helper.java:44] - Clicked on Continue
+[11:41:37.665] [INFO ] [Helper.java:44] - Clicked on Continue
+[11:41:37.890] [INFO ] [Helper.java:44] - Clicked on Real Estate Txn Date field
+[11:41:37.988] [INFO ] [Helper.java:44] - Selected on Real Estate Txn Date
+[11:41:38.099] [INFO ] [Helper.java:44] - Entered Txn Value
+[11:41:38.177] [INFO ] [Helper.java:44] - Clicked on Continue
+[11:41:38.966] [INFO ] [Helper.java:44] - Clicked : By.xpath: //span[contains(.,' Upload file')]
+[11:41:39.129] [INFO ] [Helper.java:44] - Clicked on Type
+[11:41:39.227] [INFO ] [Helper.java:44] - Selected Copy of Contract
+[11:41:39.348] [INFO ] [Helper.java:44] - Entered Description
+[11:41:39.448] [INFO ] [Helper.java:44] - Clicked on Add
+[11:41:39.448] [INFO ] [Actions.java:53] - Waiting for 20 Seconds
+[11:41:59.587] [INFO ] [Helper.java:44] - Clicked on Close
+[11:42:00.268] [INFO ] [Helper.java:44] - Agree to the declaration
+[11:42:00.362] [INFO ] [Helper.java:44] - Clicked on Continue
+[11:42:00.362] [INFO ] [Actions.java:53] - Waiting for 15 Seconds
+[11:42:15.491] [INFO ] [Helper.java:44] - Closed Survey
+[11:42:15.491] [INFO ] [Actions.java:53] - Waiting for 8 Seconds
+[11:42:23.506] [INFO ] [Actions.java:53] - Waiting for 2 Seconds
+[11:42:25.592] [INFO ] [SeleniumListener.java:150] - Captured text : [620220004043] of web element : [[[ChromeDriver: chrome on WINDOWS (6b0686e23c2e370867aa59779c54a925)] -> xpath: //label[@for='CardNumber']/following-sibling::label]]
+[11:42:25.662] [INFO ] [SeleniumListener.java:150] - Captured text : [620220004043] of web element : [[[ChromeDriver: chrome on WINDOWS (6b0686e23c2e370867aa59779c54a925)] -> xpath: //label[@for='CardNumber']/following-sibling::label]]
+[11:42:25.737] [INFO ] [SeleniumListener.java:150] - Captured text : [Your request has been submitted, and the reference number is 610220004043] of web element : [[[ChromeDriver: chrome on WINDOWS (6b0686e23c2e370867aa59779c54a925)] -> xpath: //*[@class='green_txt']]]
+[11:42:25.803] [INFO ] [SeleniumListener.java:150] - Captured text : [50,000.00 SAR] of web element : [[[ChromeDriver: chrome on WINDOWS (6b0686e23c2e370867aa59779c54a925)] -> xpath: //td[contains(.,'Total invoice amount')]/..//following-sibling::td]]
+[11:42:25.888] [INFO ] [SeleniumListener.java:150] - Captured text : [Your request has been submitted successfully, and you can finish the request proceedings after tax payment] of web element : [[[ChromeDriver: chrome on WINDOWS (6b0686e23c2e370867aa59779c54a925)] -> xpath: (//label[contains(@class,'green_txt')])[2]]]
+[11:42:25.888] [INFO ] [Actions.java:53] - Waiting for 5 Seconds
+[11:42:31.103] [INFO ] [SeleniumListener.java:115] - Executed script : window.open()
+[11:42:31.106] [INFO ] [Helper.java:44] - Opened New Tab
+[11:42:31.119] [INFO ] [SeleniumListener.java:125] - Trying to switch to window : CDwindow-73AB426F13575CEF29C45F08AAEE69D7
+[11:42:31.132] [INFO ] [SeleniumListener.java:120] - Switched to window : CDwindow-73AB426F13575CEF29C45F08AAEE69D7
+[11:42:31.132] [INFO ] [Actions.java:53] - Waiting for 2 Seconds
+[11:42:40.823] [INFO ] [Helper.java:44] - Opened url : https://stgrettfe01.mygazt.gov.sa:1008/sadad-payment-mock
+[11:42:41.093] [INFO ] [Helper.java:44] - Enter Sadad Number
+[11:42:41.208] [INFO ] [Helper.java:44] - Entered text [50000] in webElement [By.xpath: //input[@id='Amount']]
+[11:42:41.310] [INFO ] [Helper.java:44] - Clicked on Payment Sumbit Button
+[11:42:41.310] [INFO ] [Actions.java:53] - Waiting for 3 Seconds
+[11:42:44.320] [INFO ] [SeleniumListener.java:125] - Trying to switch to window : CDwindow-FC4930ABF7BF947D13E331D541AB7AA0
+[11:42:44.350] [INFO ] [SeleniumListener.java:120] - Switched to window : CDwindow-FC4930ABF7BF947D13E331D541AB7AA0
+[11:42:44.350] [INFO ] [Actions.java:53] - Waiting for 2 Seconds
+[11:42:46.524] [INFO ] [Helper.java:44] - Clicked on Invoices
+[11:42:46.655] [INFO ] [Helper.java:44] - Entered Invoice Number
+[11:42:46.793] [INFO ] [Helper.java:44] - Clicked on Search
+[11:42:46.794] [INFO ] [Actions.java:53] - Waiting for 3 Seconds
+[11:42:49.878] [INFO ] [SeleniumListener.java:150] - Captured text : [Invoice Paid] of web element : [[[ChromeDriver: chrome on WINDOWS (6b0686e23c2e370867aa59779c54a925)] -> xpath: //p-table[@id='billsTable']/div/div/table/tbody/tr/td[9]]]
+[11:42:49.878] [INFO ] [Helper.java:44] - Invoice is successfully Paid
+[11:42:50.078] [INFO ] [Actions.java:53] - Waiting for 1 Seconds
+[11:43:00.673] [INFO ] [Helper.java:44] - Launched url : https://stgrettfe01.mygazt.gov.sa:1008/home-page
+[11:43:02.241] [INFO ] [Helper.java:44] - Selected English Language
+[11:43:02.401] [INFO ] [Helper.java:44] - Entered text [RISK_SUPERVISOR1] in webElement [By.xpath: //*[@id='userName']]
+[11:43:02.527] [INFO ] [Helper.java:44] - Entered text [Aa@10203040] in webElement [By.xpath: //*[@id="password"]]
+[11:43:02.667] [INFO ] [Helper.java:44] - Clicked on Login
+[11:43:03.165] [INFO ] [Helper.java:44] - Entered Request Number
+[11:43:03.291] [INFO ] [Helper.java:44] - Clicked on Search
+[11:43:03.291] [INFO ] [Actions.java:53] - Waiting for 2 Seconds
+[11:43:05.393] [INFO ] [Helper.java:44] - Clicked on Assign Button
+[11:43:05.533] [INFO ] [Helper.java:44] - Clicked on Office Examination Request
+[11:43:05.534] [INFO ] [Actions.java:53] - Waiting for 4 Seconds
+[11:43:09.679] [INFO ] [Helper.java:44] - Clicked Audit Reason Drop Down
+[11:43:09.792] [INFO ] [Helper.java:44] - Selected Audit Reason Others
+[11:43:09.908] [INFO ] [Helper.java:44] - Clicked Source of Audit Case Drop Down
+[11:43:10.011] [INFO ] [Helper.java:44] - Selected Analysis and Risk Management
+[11:43:10.158] [INFO ] [Helper.java:44] - Entered Audit Case Description
+[11:43:10.259] [INFO ] [Helper.java:44] - Clicked on Send
+[11:43:10.817] [INFO ] [SeleniumListener.java:150] - Captured text : [The Request approval and audit case created with 630220004043] of web element : [[[ChromeDriver: chrome on WINDOWS (6b0686e23c2e370867aa59779c54a925)] -> xpath: //*[@class='text-center mt-4']/div[2]/p]]
+[11:43:10.817] [INFO ] [Helper.java:44] - Audit Case Request NumberThe Request approval and audit case created with 630220004043
+[11:43:10.817] [INFO ] [Helper.java:44] - Audit Case Number = 630220004043
+[11:43:11.007] [INFO ] [Helper.java:44] - Clicked on Audit Cases
+[11:43:11.205] [INFO ] [Helper.java:44] - Entered Case Number
+[11:43:11.723] [INFO ] [Helper.java:44] - Clicked on Search
+[11:43:11.724] [INFO ] [Actions.java:53] - Waiting for 2 Seconds
+[11:43:13.807] [INFO ] [SeleniumListener.java:150] - Captured text : [Audit_Officer6] of web element : [[[ChromeDriver: chrome on WINDOWS (6b0686e23c2e370867aa59779c54a925)] -> xpath: //thead[@class='p-datatable-thead']/following-sibling::tbody/tr[1]/td[10]]]
+[11:43:13.807] [INFO ] [Helper.java:44] - Auditor Name = Audit_Officer6
+[11:43:13.807] [INFO ] [Actions.java:53] - Waiting for 3 Seconds
+[11:43:16.956] [INFO ] [Helper.java:44] - Logged off from RiskSupervisor
+[11:43:16.956] [INFO ] [Actions.java:53] - Waiting for 2 Seconds
+[11:43:19.087] [INFO ] [Helper.java:44] - Entered text [Audit_Officer6] in webElement [By.xpath: //*[@id='userName']]
+[11:43:19.222] [INFO ] [Helper.java:44] - Entered text [Aa@10203040] in webElement [By.xpath: //*[@id="password"]]
+[11:43:19.329] [INFO ] [Helper.java:44] - Clicked on Login
+[11:43:19.928] [INFO ] [Helper.java:44] - Clicked on Audit Cases
+[11:43:20.125] [INFO ] [Helper.java:44] - Entered Case Number
+[11:43:20.401] [INFO ] [Helper.java:44] - Clicked on Search
+[11:43:20.401] [INFO ] [Actions.java:53] - Waiting for 2 Seconds
+[11:43:22.523] [INFO ] [Helper.java:44] - Clicked on Assign Button
+[11:43:22.523] [INFO ] [Actions.java:53] - Waiting for 2 Seconds
+[11:43:24.657] [INFO ] [Helper.java:44] - Selected Audit Case Study
+[11:43:24.895] [INFO ] [Helper.java:44] - Selected No Conflicts Exists
+[11:43:24.897] [INFO ] [Actions.java:53] - Waiting for 3 Seconds
+[11:43:28.055] [INFO ] [Helper.java:44] - Selected Final Evaluation Procedure
+[11:43:28.163] [INFO ] [Helper.java:44] - Clicked on Final Decision drop down
+[11:43:28.312] [INFO ] [Helper.java:44] - Selected  Final Decision
+[11:43:28.499] [INFO ] [Helper.java:44] - Selecting New Txn Date
+[11:43:28.623] [INFO ] [Helper.java:44] - Selected New TXN date
+[11:43:28.908] [INFO ] [Helper.java:44] - Clicked on Reevaluation Reason drop down
+[11:43:29.068] [INFO ] [Helper.java:44] - Selected Reevaluation Reason
+[11:43:29.243] [INFO ] [Helper.java:44] - Entered 10K SAR Fine
+[11:43:29.382] [INFO ] [Helper.java:44] - Entered Real Estate real value
+[11:43:29.382] [INFO ] [Actions.java:53] - Waiting for 6 Seconds
+[11:43:35.543] [INFO ] [Helper.java:44] - Entered Final Evaluation Reason
+[11:43:35.666] [INFO ] [Helper.java:44] - Entered Requirements Decision
+[11:43:35.796] [INFO ] [Helper.java:44] - Clicked on Send
+[11:43:36.411] [INFO ] [Helper.java:44] - Clicked on Ok
+[11:43:36.411] [INFO ] [Helper.java:44] - Successfully  submitted Audit Case Final Evaluation
+[11:43:36.420] [INFO ] [SeleniumListener.java:69] - Trying to refresh the current page. Current url : https://stgrettbe01.mygazt.gov.sa:1007/main-page-summary-audit-case
+[11:43:44.276] [INFO ] [SeleniumListener.java:74] - Refreshed the current page. Current url : https://stgrettbe01.mygazt.gov.sa:1007/main-page-summary-audit-case
+[11:43:44.277] [INFO ] [Actions.java:53] - Waiting for 6 Seconds
+[11:43:50.395] [INFO ] [Helper.java:44] - Logged off from AuditOfficer
+[11:43:50.395] [INFO ] [Actions.java:53] - Waiting for 2 Seconds
+[11:43:52.516] [INFO ] [Helper.java:44] - Entered AuditSuperVisor UserName
+[11:43:52.516] [INFO ] [Actions.java:53] - Waiting for 2 Seconds
+[11:43:54.639] [INFO ] [Helper.java:44] - Entered AuditSuperVisor PWD
+[11:43:54.733] [INFO ] [Helper.java:44] - Clicked on Login
+[11:43:54.733] [INFO ] [Helper.java:44] - Successfully Logged in to Audit Supervisor
+[11:43:54.733] [INFO ] [Actions.java:53] - Waiting for 2 Seconds
+[11:43:56.857] [INFO ] [Helper.java:44] - Clicked on Procedures
+[11:43:56.948] [INFO ] [Helper.java:44] - Entered Case Number
+[11:43:57.460] [INFO ] [Helper.java:44] - Clicked on Search
+[11:43:57.461] [INFO ] [Actions.java:53] - Waiting for 2 Seconds
+[11:43:59.629] [INFO ] [Helper.java:44] - Selecting Close Audit Procedure
+[11:44:00.044] [INFO ] [Helper.java:44] - Entered Close Notes
+[11:44:00.215] [INFO ] [Helper.java:44] - Clicked on Approve
+[11:44:01.395] [INFO ] [Helper.java:44] - Clicked on OK
+[11:44:01.395] [INFO ] [Actions.java:53] - Waiting for 3 Seconds
+[11:44:04.499] [INFO ] [Helper.java:44] - Clicked on Audit Cases
+[11:44:04.596] [INFO ] [Helper.java:44] - Entered Case Number
+[11:44:04.665] [INFO ] [Helper.java:44] - Clicked on Search
+[11:44:04.666] [INFO ] [Actions.java:53] - Waiting for 2 Seconds
+[11:44:06.725] [INFO ] [SeleniumListener.java:150] - Captured text : [Closed Audit Case] of web element : [[[ChromeDriver: chrome on WINDOWS (6b0686e23c2e370867aa59779c54a925)] -> xpath: //p-table[@datakey='id']/div/div/table/tbody/tr/td[9]]]
+[11:44:06.725] [INFO ] [Actions.java:53] - Waiting for 3 Seconds
+[11:44:09.731] [INFO ] [BaseTest.java:87] - Test method [FinalEvaluationAuditCase_ApproveByRISKSupervisor_Companies] Passed
+[11:44:10.813] [INFO ] [ExecutionListener.java:18] - End of automated test execution
